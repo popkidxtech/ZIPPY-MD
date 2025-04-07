@@ -1,5 +1,6 @@
-// Jawad TechX
-import { proto, downloadContentFromMessage } from '@whiskeysockets/baileys'
+// Popkid
+import pkg from '@whiskeysockets/baileys';
+const { proto, downloadContentFromMessage } = pkg;
 import config from '../config.cjs'
 import fs from 'fs'
 import path from 'path'
